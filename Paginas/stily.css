@@ -76,7 +76,7 @@ h2 {
 @media only screen and (max-width: 750px) {
   .subtitulo {
     display: block;
-    font-size: 20%;
+    font-size: 200%;
   }
   .div {
     align-content: stretch;
