@@ -104,9 +104,9 @@ h2 {
     display: none;
   }
   .div_container-items-responsive {
-    opacity: 0.9;
+    opacity: 0.89;
     width: 75%;
-    height: 40vh;
+    height: 50%;
     align-content: center;
     justify-content: center;
     margin: 30vh 12.5%;
