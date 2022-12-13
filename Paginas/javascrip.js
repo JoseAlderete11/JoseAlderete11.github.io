@@ -18,3 +18,14 @@ function sesion() {
     alert("Correo o Contraseña incorrecta");
   }
 }
+var eye = document.getElementById("Eye");
+var imput = document.getElementById("Input");
+eye.addEventListener("click", function () {
+  if (imput.type == "password") {
+    imput.type = "text";
+    eye.style.opacity = 0.8;
+  } else {
+    imput.type = "password";
+    eye.style.opacity = 0.2;
+  }
+});

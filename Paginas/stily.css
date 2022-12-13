@@ -49,9 +49,35 @@
   width: 100%;
   margin: 20px;
 }
+.contrasenia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 5px;
+  background-color: aliceblue;
+  background-color: rgb(211, 216, 233);
+  position: relative;
+}
+
 .div_from-input {
   padding: 8px;
   margin: 5px;
+  outline: none;
+  width: 100%;
+  position: absolute;
+}
+.ico {
+  position: absolute;
+  height: 60%;
+  top: 50%;
+  right: 8px;
+  transform: translatey(-50%);
+  opacity: 0.3;
+  cursor: pointer;
+}
+.ico:hover {
+  opacity: 0.8;
 }
 .div_from label {
   margin-left: 5px;
@@ -94,7 +120,7 @@ h2 {
   }
   h2 {
     color: aliceblue;
-    font-size: 25px;
+
     text-align: center;
   }
   label {
