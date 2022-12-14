@@ -51,30 +51,28 @@
 }
 .contrasenia {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  margin: 5px;
-  background-color: aliceblue;
-  background-color: rgb(211, 216, 233);
+
   position: relative;
 }
 
 .div_from-input {
-  padding: 8px;
-  margin: 5px;
+  padding: 5px;
+  background-color: aliceblue;
+  color: black;
   outline: none;
   width: 100%;
-  position: absolute;
+  position: relative;
+  border-style: none;
 }
 .ico {
   position: absolute;
-  height: 60%;
+  height: 65%;
   top: 50%;
   right: 8px;
   transform: translatey(-50%);
   opacity: 0.3;
   cursor: pointer;
+  padding: 2px;
 }
 .ico:hover {
   opacity: 0.8;
@@ -103,6 +101,9 @@ h2 {
   .subtitulo {
     display: block;
     font-size: 175%;
+  }
+  .ico {
+    height: 45%;
   }
   .div {
     align-content: stretch;
