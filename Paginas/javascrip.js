@@ -19,7 +19,7 @@ function sesion() {
   }
 }
 var eye = document.getElementById("Eye");
-var imput = document.getElementById("Input");
+var imput = document.getElementById("contraseña");
 eye.addEventListener("click", function () {
   if (imput.type == "password") {
     imput.type = "text";
