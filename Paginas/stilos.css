@@ -116,7 +116,7 @@ i {
   margin-top: 8.5vh;
   display: flex;
   width: 100%;
-  height: 89.5vh;
+  height: 91.5vh;
 }
 .contenedor-photo {
   display: flex;
@@ -175,8 +175,7 @@ i {
   color: hsl(0, 0%, 98%);
 }
 .divCarrusel {
-  position: relative;
-  top: 10%;
+  padding-top: 5%;
   width: 60%;
   box-sizing: border-box;
   overflow: hidden;
@@ -188,63 +187,6 @@ i {
   width: 800%;
   animation: cambio 30s infinite alternate;
 }
-.divCarrusel li {
-  width: 100%;
-  padding: 10px;
-  list-style: none;
-}
-.divCarrusel img {
-  width: 100%;
-  height: 80%;
-  object-fit: fill;
-}
-
-h2,
-.main_li {
-  color: rgb(243, 231, 231);
-
-  margin-left: 30px;
-  padding-top: 20px;
-}
-h2 {
-  text-align: center;
-  font-size: 120%;
-}
-.main_span {
-  position: relative;
-  font-size: 150%;
-}
-.main_span::after {
-  content: "";
-  border-left: 1px solid skyblue;
-  background: rgb(7, 7, 7);
-  width: 100%;
-  height: 110%;
-  position: absolute;
-  right: 0;
-  animation: maquina 12s infinite alternate steps(20);
-}
-
-.main-div {
-  margin: 0.5% 0.5%;
-}
-.main-frase {
-  width: 40%;
-
-  background: rgb(7, 7, 7);
-  opacity: 0.8;
-  z-index: -50;
-}
-
-@keyframes maquina {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 0%;
-  }
-}
-
 @keyframes cambio {
   0% {
     margin-left: 0;
@@ -295,6 +237,51 @@ h2 {
   100% {
     margin-left: -700%;
   }
+}
+.divCarrusel li {
+  width: 100%;
+  padding: 10px;
+  list-style: none;
+}
+.divCarrusel img {
+  width: 100%;
+  height: 80%;
+  object-fit: fill;
+}
+.main_span {
+  position: relative;
+}
+.main_span::after {
+  content: "";
+  border-left: 2px solid rgb(37, 218, 218);
+  background: rgb(7, 7, 7);
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: maquina 8s infinite alternate steps(11);
+}
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.main-div {
+  margin: 0.5% 0.5%;
+}
+.main-frase {
+  width: 40%;
+  color: #fff;
+  background: rgb(7, 7, 7);
+  opacity: 0.8;
+  z-index: -50;
+  text-align: center;
+  padding: 50px 15px;
+  font-size: 180%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -361,7 +348,7 @@ h2 {
     width: 50%;
   }
   .divCarrusel {
-    top: 0;
+    padding-top: 0;
     width: 99%;
     height: 45%;
   }
@@ -369,17 +356,10 @@ h2 {
   .main-frase {
     height: 55%;
     width: 99%;
+    padding: 15px 5px;
+    font-size: 160%;
   }
-  .main_span {
-    position: relative;
-    font-size: 150%;
-  }
-  h2 {
-    font-size: 180%;
-  }
-  .main_li {
-    padding-top: 7px;
-  }
+
   .main-img_photo,
   .frase-photo {
     width: 95%;
