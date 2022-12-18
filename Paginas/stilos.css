@@ -193,7 +193,7 @@ i {
 }
 .divCarrusel img {
   width: 100%;
-  height: 60%;
+  height: 80%;
   object-fit: fill;
 }
 
@@ -308,7 +308,7 @@ h2 {
     display: none;
   }
   i {
-    font-size: 150%;
+    font-size: 130%;
   }
 
   .header {
@@ -369,10 +369,10 @@ h2 {
   }
   .main_span {
     position: relative;
-    font-size: 165%;
+    font-size: 150%;
   }
   h2 {
-    font-size: 200%;
+    font-size: 180%;
   }
   .main_li {
     padding-top: 7px;
@@ -389,9 +389,9 @@ h2 {
 }
 @media only screen and (max-width: 630px) {
   .divCarrusel {
-    height: 40%;
+    height: 33%;
   }
   .main-frase {
-    height: 60%;
+    height: 67%;
   }
 }
