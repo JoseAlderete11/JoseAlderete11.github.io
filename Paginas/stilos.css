@@ -69,7 +69,7 @@
   animation: animacion 10s infinite;
   margin: 0;
   font-family: "Roboto Slab", serif;
-  font-size: 100%;
+  font-size: 110%;
 }
 @keyframes animacion {
   0% {
