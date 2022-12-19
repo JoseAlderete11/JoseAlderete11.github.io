@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
+  font-family: "Roboto Slab", serif;
 }
 
 .div {
@@ -16,20 +17,19 @@
 }
 .div_container {
   display: flex;
-  width: 40%;
+  width: 45%;
   height: 70vh;
 }
 .div_container-items {
   display: flex;
   align-items: center;
-
   background: rgb(163, 164, 167);
 }
 .p30 {
-  width: 40%;
+  width: 45%;
 }
 .p70 {
-  width: 60%;
+  width: 55%;
 }
 .div_fondo {
   width: 100%;
@@ -37,9 +37,9 @@
 }
 .div_logo {
   object-fit: cover;
-  height: 150px;
-  width: 150px;
-  margin: 0 auto 50px;
+  height: 130px;
+  width: 130px;
+  margin: 0 auto 7%;
   border-radius: 100%;
 }
 .div_from {
@@ -57,6 +57,7 @@
 
 .div_from-input {
   padding: 5px;
+  margin: 2.5px;
   background-color: aliceblue;
   color: black;
   outline: none;
@@ -67,7 +68,7 @@
 }
 .ico {
   position: absolute;
-  height: 65%;
+  height: 60%;
   top: 50%;
   right: 8px;
   transform: translatey(-50%);
