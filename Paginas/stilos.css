@@ -2,11 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Caveat", cursive;
 }
 .negro {
   background: black;
-  font-family: "Roboto Slab", serif;
 }
 
 .header_botton {
@@ -39,8 +37,10 @@
 .logo30 {
   width: 20%;
   opacity: 0.6;
-  font-family: "Caveat", cursive;
+  font-family: "Roboto Slab", serif;
+
   font-size: 15px;
+  font-family: "Caveat", cursive;
 }
 .logo30:hover {
   cursor: pointer;
@@ -68,6 +68,8 @@
   padding-top: 60px;
   animation: animacion 10s infinite;
   margin: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 100%;
 }
 @keyframes animacion {
   0% {
@@ -119,6 +121,7 @@ i {
   display: flex;
   width: 100%;
   height: 91.5vh;
+  font-family: "Roboto Slab", serif;
 }
 .contenedor-photo {
   display: flex;
