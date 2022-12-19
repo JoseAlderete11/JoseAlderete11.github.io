@@ -110,6 +110,9 @@ a {
   color: aliceblue;
   text-decoration: none;
 }
+.n {
+  background: black;
+}
 a:hover {
   border-bottom: rgb(120, 54, 207) 3px solid;
 }
