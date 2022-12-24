@@ -5,9 +5,10 @@ function sesion() {
   pass = document.getElementById("contraseña").value;
 
   if (
-    user == "Maria1203@gmail.com" ||
-    (user == "MARIA1203@GMAIL.COM" && pass == "juntosporsiempre") ||
-    pass == "JUNTOSPORSIEMPRE"
+    (user == "MARIA1203@GMAIL.COM" && pass == "JUNTOSPORSIEMPRE") ||
+    (user == "maria1203@gmail.com" && pass == "juntosporsiempre") ||
+    (user == "Maria1203@gmail.com" && pass == "Juntosporsiempre") ||
+    (user == "Maria1203@gmail.com" && pass == "juntosporsiempre")
   ) {
     window.location = "Paginas//menu.html";
   } else if (user == "" && pass == "") {
